@@ -1,11 +1,11 @@
-About cyeva
-===========
+About cyeva-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cyeva-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/caiyunapp/cyeva
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cyeva-feedstock/blob/main/LICENSE.txt)
 
 Summary: cyeva is a Python open source tool library to evaluate the accuracy of weather forecast.
 
