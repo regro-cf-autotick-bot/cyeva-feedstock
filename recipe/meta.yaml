@@ -1,5 +1,5 @@
 {% set name = "cyeva" %}
-{% set version = "0.1.0.beta.10" %}
+{% set version = "0.1.0.beta.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/caiyunapp/cyeva/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 3b2e77644b8f59308dd0069165215ce812b7c914927411697ea4179e6dec76fd
+  sha256: 01942031e035f7669b71786d2ba7eef54b96ecbd409c13953070c47fafad57f4
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
