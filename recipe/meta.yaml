@@ -11,15 +11,15 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy >=1.19.5
     - pandas >=1.1.5
     - fire >=0.4.0
@@ -31,6 +31,7 @@ test:
     - cyeva
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
